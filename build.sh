@@ -10,4 +10,4 @@ if [ $# != 1 ] ; then
 fi
 
 mkdir -p $OUTPUT_DIRECTORY
-pandoc $HTML $DOCX $TEX -f markdown+multiline_tables resume.md -o $OUTPUT_DIRECTORY/resume.$1
+pandoc $HTML $DOCX $TEX -f markdown+multiline_tables $1.md -o $OUTPUT_DIRECTORY/$1.$2

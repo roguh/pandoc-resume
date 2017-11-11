@@ -1,20 +1,20 @@
-# Pandoc Résumé
+# Pandoc-Résumé
 
-This is a pandoc template for building a résumé.
-Pandoc can convert `resume.md` into a PDF, a DOCX, and an HTML file with similar styles.
+This is a set of files to help with writing a résumé in multiple formats while preserving style.
+Pandoc converts `template.md` into a PDF, a DOCX, and an HTML file with similar styles.
 
 ## Usage
 
-Edit `resume.md` to add content. Edit `style.css` to change the HTML style and `reference.docx` for the DOCX style.
+Edit `template.md` to add content. Edit `style.css` to change the HTML style and `reference.docx` for the DOCX style.
 
-Run one of these commands to generate output:
+Run one of these commands to convert `template.md`:
 
 ```
-build.sh pdf
-build.sh docx
-build.sh html
+build.sh template pdf
+build.sh template docx
+build.sh template html
 ```
 
-Run `all.sh` to generate all outputs.
+Run `all.sh template` to generate all outputs.
 You can also convert the DOCX into a PDF.
 
