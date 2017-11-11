@@ -4,8 +4,8 @@ HTML='--standalone --self-contained --css style.css'
 DOCX='--reference-doc=reference.docx'
 TEX='--latex-engine=xelatex'
 
-if [ $# != 1 ] ; then
-    echo "USAGE: $0 [pdf|html|docx|tex]"
+if [ $# != 2 ] ; then
+    echo "USAGE: $0 filename [pdf|html|docx|tex]"
     exit 1
 fi
 

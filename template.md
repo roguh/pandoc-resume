@@ -30,12 +30,12 @@ The header-includes option is meant to:
 <!-- replace maketitle with a section header only visible in the PDF/TEX output -->
 \section*{Sample Resume}
 
-\vspace{-2em}
+\vspace{-1em}
 |
 |-----------------------------|-------------------|-------------------|------------------:|
 | [me@mail.mail](mailto:me@mail.mail) | [me.github.io](https://me.github.io) | [me.linked.in](https://me.linked.in) | Where I Am |
 
-\vspace{-2.2em}
+\vspace{-1em}
 |
 |---------------------------------------------|----------------------------------------------:|
 | Degree 1 | Degree 2 |
@@ -48,9 +48,9 @@ The header-includes option is meant to:
 Praesent ut vulputate lectus, eleifend mattis arcu. Curabitur dictum ipsum id eros sodales pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 
 <!-- Simulate a no-header table by removing excess vertical space -->
-\vspace{-2em}
+\vspace{-1em}
 | | |
-|-----:|-|------------------------------------------------------------------------------------------------------------------|
+|-----------:|-|------------------------------------------------------------------------------------------------------------|
 | (2078 to 2099) **Job 1** | | Duis lacinia molestie aliquam. Donec mattis, enim id porttitor laoreet, nibh ipsum rhoncus purus, eu fermentum enim velit id ex. Fusce non lacus ut felis tincidunt tincidunt eget euismod nisl. Proin at fermentum turpis. Curabitur pretium lectus a felis tincidunt laoreet.
 | (1805 to 1808) **Job 2** | | Donec neque diam, luctus vel metus nec, consequat iaculis felis. Cras ut hendrerit nisl.
 | (1555 to 1781) **Job 4** | | Nunc efficitur justo dui, nec viverra lacus imperdiet in. Quisque interdum sed magna in accumsan. Cras accumsan lorem eros, nec auctor elit dignissim quis. Maecenas euismod posuere ante, quis tempus diam iaculis non. Mauris tincidunt ligula quis risus ornare facilisis. Mauris aliquam non tellus non maximus. 
