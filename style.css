@@ -1,5 +1,20 @@
 body {
-    max-width: 55em;
-    margin: 5em auto;
-    font-family: "Source Code Pro", "Ubuntu Mono", monospace, sans
+  max-width: 65em;
+  margin: 5em auto;
+  font-family: "Source Code Pro", "Ubuntu Mono", monospace, sans
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media print {
+    font-size: 10pt;
 }
