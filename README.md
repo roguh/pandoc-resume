@@ -1,7 +1,7 @@
 # Pandoc-Résumé
 
-This is a set of files to help with writing a résumé in multiple formats while preserving style.
-Pandoc converts `template.md` into a PDF, a DOCX, and an HTML file with similar styles.
+Write a résumé in markdown and convert to PDF, DOCX, and HTML.
+Pandoc converts `template.md` into several standalone formats with similar styles.
 
 ## Usage
 
