@@ -1,16 +1,18 @@
 ---
-geometry: margin=0.8in, top=0.4in, bottom=0.4in
+geometry: margin=0.8in, top=0.3in, bottom=0.3in
 header-includes: 
     - \usepackage[moderate]{savetrees}
     - \pagenumbering{gobble}
-    - \setlength\parskip{0pt}
-    - \usepackage{sectsty}
-    - \subsectionfont{\fontsize{13}{15}\selectfont}
-    - \sectionfont{\fontsize{17}{15}\selectfont}
+    - \usepackage[compact]{titlesec}
+    - \titlespacing{\section}{0pt}{0pt}{0pt}
+    - \titlespacing{\subsection}{0pt}{5pt}{0pt}
+    - \titlespacing{\subsubsection}{0pt}{0pt}{0pt}
     - \usepackage{titling}
     - \setlength{\droptitle}{-1em}
     - \pretitle{\vspace{-20pt}\begin{center}\Large}
     - \posttitle{\par\end{center}\vspace{-20pt}}
+    - \setlength\parskip{0pt}
+    - \setlength\parindent{0pt}
 mainfont: Ubuntu Mono 
 fontsize: 10pt
 title: Sample Résumé
