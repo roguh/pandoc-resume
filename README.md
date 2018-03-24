@@ -15,6 +15,16 @@ build.sh template docx
 build.sh template html
 ```
 
-Run `all.sh template` to generate all outputs.
-You can also convert the DOCX into a PDF.
+To generate all formats, run
 
+```
+all.sh template
+```
+
+### DOCX, HTML
+
+These output formats may need further processing.
+
+## Sample
+
+![PDF rendered to PNG](template.png)

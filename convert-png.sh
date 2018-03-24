@@ -1,0 +1,1 @@
+convert -density 576 -alpha remove out/template.pdf template.png
